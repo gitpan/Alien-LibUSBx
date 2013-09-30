@@ -1,5 +1,5 @@
 {
-   "abstract" : "Alien package for libusb-1.0",
+   "abstract" : "Alien package for libusb (libusb-1.0) which provides",
    "author" : [
       "Henrik Brix Andersen <brix@cpan.org>"
    ],
@@ -35,16 +35,19 @@
    "provides" : {
       "Alien::LibUSBx" : {
          "file" : "lib/Alien/LibUSBx.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "url" : "https://github.com/henrikbrixandersen/Alien-LibUSBx"
+      }
    },
-   "version" : "0.10",
+   "version" : "0.11",
    "x_test_requires" : {
       "Config" : "0",
       "Test::More" : "0"
