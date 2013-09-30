@@ -1,5 +1,5 @@
 ---
-abstract: 'Alien package for libusb (libusb-1.0) which provides'
+abstract: 'Alien package for libusb (libusb-1.0) which provides generic access to USB devices'
 author:
   - 'Henrik Brix Andersen <brix@cpan.org>'
 build_requires: {}
@@ -12,6 +12,10 @@ configure_requires:
   Module::Build: 0.4004
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132140'
+keywords:
+  - libusb
+  - libusb-1.0
+  - USB
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,7 +24,7 @@ name: Alien-LibUSBx
 provides:
   Alien::LibUSBx:
     file: lib/Alien/LibUSBx.pm
-    version: 0.11
+    version: 0.12
 requires:
   Alien::Base: 0.003
   File::ShareDir: 1.00
@@ -28,7 +32,7 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/henrikbrixandersen/Alien-LibUSBx
-version: 0.11
+version: 0.12
 x_test_requires:
   Config: 0
   Test::More: 0
